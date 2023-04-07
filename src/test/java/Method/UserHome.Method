@@ -1,0 +1,16 @@
+Feature: Add an iPhone to cart and proceed to checkout
+
+Scenario: Add an iPhone to cart and proceed to checkout
+    Given I am on the Vodafone Shop page
+    When I select English language
+    And I select iPhone from Shop by Brand section
+    And I select an iPhone mobile
+    And I add it to cart
+    And I proceed to checkout
+    And I select "Cairo" "Ain Shams" as delivery option
+    And I select "Deliver to My Address"
+    And I add address details
+    And I continue
+    And I leave Personal info. Tab empty
+    And I continue
+    Then I should see an error message on the "Full Name" field
