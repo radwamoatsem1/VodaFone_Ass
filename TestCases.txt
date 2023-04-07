@@ -1,0 +1,28 @@
+Test Case 1: Valid Login Credentials
+
+1-Open the Vodafone Shop Login Page (https://eshop.vodafone.com.eg/shop/)
+2-Enter a valid Vodafone mobile number and password
+3-Click on the "Log in" button
+4-Verify that the user is redirected to the Vodafone Shop home page.
+
+Test Case 2: Invalid Login Credentials
+1-Open the Vodafone Shop Login Page (https://eshop.vodafone.com.eg/shop/)
+2-Enter an invalid Vodafone mobile number and password
+3-Click on the "Log in" button
+4-Verify that an error message is displayed on the page indicating that the login credentials are incorrect.
+
+Test Case 3: Forgot Password
+
+1-Open the Vodafone Shop Login Page (https://eshop.vodafone.com.eg/shop/)
+2-Click on the "Forgot Password?" link
+3-Enter a valid Vodafone mobile number
+4-Click on the "Reset Password" button
+5-Verify that a message is displayed on the page indicating that a password reset link has been sent to the user's registered email address.
+
+Bug Report: Incorrect Password Reset Message
+
+1-Open the Vodafone Shop Login Page (https://eshop.vodafone.com.eg/shop/)
+2-Click on the "Forgot Password?" link
+3-Enter a valid Vodafone mobile number
+4-Click on the "Reset Password" button
+5-Observe that the message displayed on the page indicates that a password reset link has been sent to the user's registered phone number instead of the email address. This is an assumption, and it is possible that the bug may not actually exist.
